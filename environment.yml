@@ -1,4 +1,4 @@
-name: OFYP-main
+name: Dopant_dataset-main
 channels:
   - conda-forge
 dependencies:

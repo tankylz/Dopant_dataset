@@ -9,7 +9,7 @@
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "bash -c 'source /opt/conda/etc/profile.d/conda.sh && conda activate smol-tester'",
+    "postCreateCommand": "bash -c 'source /opt/conda/etc/profile.d/conda.sh && conda activate Dopant_dataset-main'",
     // Configure tool-specific properties.
     "customizations": {
         "vscode": {
@@ -26,8 +26,9 @@
                 "esbenp.prettier-vscode",
                 "VisualStudioExptTeam.vscodeintellicode",
                 "ms-python.debugpy",
-                "ms-toolsai.jupyter"
-
+                "ms-toolsai.jupyter",
+                "shd101wyy.markdown-preview-enhanced",
+                "bierner.markdown-preview-github-styles"
             ]
         }
     }
