@@ -46,6 +46,8 @@
   - Eg. Some formula are now in weight ratios ((W18O40)0.3(ZnO)0.7) and some are in a mixture of stoichiometric ratios and weight ratios (0.9Cu2Se-0.1(Bi0.88Pb0.06Ca0.06CuSeO)-0.01 wt% Graphene)
   - **WORST CASE**: Delete these entries (count how many of them are there first)
   - 302 total (all mixed formula, i.e. some parts are stoichiometrically represented, typically the compound itself, while other parts are mass represented)
+  - [x] Done initial function
+  - [ ] Need to check if the conversion is correct 
 
 - [ ] Host-Dopant Based on a Function
   - [ ] Function to take in a threshold % (like 1%) to separate dopant from host
