@@ -49,8 +49,8 @@
   - [x] Done initial function
   - [ ] Need to check if the conversion is correct 
 
-- [ ] Host-Dopant Based on a Function
-  - [ ] Function to take in a threshold % (like 1%) to separate dopant from host
+- [x] Host-Dopant Based on a Function
+  - [x] Function to take in a threshold % (like 1%) to separate dopant from host
   - [ ] Potential issues: It cannot parse dopants that are compounds
     - E.g. (AgCl)0.001PbTe(0.999) is supposed to be (PbTe)0.999 as host and (AgCl)0.001 as dopant. But we might get Ag0.001, Cl0.001.
     - E.g. (AgCl)0.001PbTe(0.999)Cu0.001 is supposed to be (PbTe)0.999 as host and (AgCl)0.001 and Cu0.001 as dopant. But we might get Ag0.001, Cl0.001 and Cu0.001
@@ -62,6 +62,10 @@
   - Need to have at least two of those properties
     - [ ] If 2 properties, take a simple difference or sum will get you the other
     - [ ] If 3 properties, need to verify if that electronic + lattice = total
+
+- [ ] Generation of power factor from Seeback coefficient and electrical conductivity
+  - [ ] If we have 2 properties, can use the formula PF = S * electrical conductivty ** 2
+  - [ ] If we have 3 properties, need to verify that the products are correct
 
 - [ ] Need to rebase the temperature of some of Sparks' Thermoelectric Data as per comments - some may be 1000K but taken from another temperature.
 
@@ -75,6 +79,9 @@
 - [ ] Verification of textual data (synthesis, comments)
   - [ ] Use LLM
   - [ ] For pretty formula, ask if the formula is present in the paper?
+
+- [ ] Check for duplicates
+  - [ ] Logic: There is the DOI and source column. Given two different sources ,are there same DOIs?
 
 ## Data Visualization
 
